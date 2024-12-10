@@ -8,7 +8,6 @@ import { fetchProducts } from "../../utils/fetchProducts";
 import Navbar from "@/components/Navbar";
 import Modal from "@/components/Modal";
 import Link from "next/link";
-import { useAsyncError } from "react-router-dom";
 
 export default function ProductDisplayPage() {
   const [products, setProducts] = useState<Product[]>([]);
